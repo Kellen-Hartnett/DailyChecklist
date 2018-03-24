@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/eventDisplayKey"
+        android:title="Display all events"
+        android:summaryOn="Displaying all events"
+        android:summaryOff="Displaying only today's events"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/showCompleteKey"
+        android:title="Show completed tasks"/>
+
+</PreferenceScreen>

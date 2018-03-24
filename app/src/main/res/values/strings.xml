@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Daily Checklist</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="eventDisplayKey">today_event_display</string>
+    <string name="showCompleteKey">show_complete_key</string>
+    <string name="all_done">All done!</string>
+    <string name="checkmark">Checkmark</string>
+    <string name="event_repeats_weekly">Event repeats weekly</string>
+    <string name="refresh_name">Refresh</string>
+    <string-array name="dayArray">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>
