@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements DataAdapter.ListI
         boolean alarmUp = (PendingIntent.getBroadcast(getApplicationContext(), 1, new Intent("com.my.kellen.databasetest.AlarmReceiver"),
                 PendingIntent.FLAG_NO_CREATE) != null);
 
-        if (alarmUp) {
+        if (!alarmUp) {
             Alarm alarm = new Alarm(getApplicationContext());
             alarm.scheduleAlarm();
         }

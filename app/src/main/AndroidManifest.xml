@@ -34,7 +34,7 @@
 
         <activity
             android:name="com.my.kellen.dailychecklist.CreateActivity"
-            android:label="@string/title_activity_create"
+            android:label="CreateActivity"
             android:parentActivityName="com.my.kellen.dailychecklist.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

@@ -31,7 +31,7 @@ class Alarm {
         c.set(Calendar.HOUR_OF_DAY, 24);
 
         if (alarmManager != null) {
-            alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), (24*1000*60*60), pendingIntent);
+            alarmManager.setExact(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), pendingIntent);
         }
         Log.i("Alarm", "Scheduled");
     }
